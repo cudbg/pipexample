@@ -17,7 +17,7 @@ Note
         pipexample.pipexample.Foo
 * read setup.py to see how scripts and data files are included
 
-How to install
+How to install directly using `setup.py`
 
     # create a virtual environment first
 
@@ -26,8 +26,7 @@ How to install
     # run it
     runexample.py 1
 
-
-How to upload to pip
+How to upload to pip so people can run `pip install pipexample`
 
 * http://peterdowns.com/posts/first-time-with-pypi.html
 
