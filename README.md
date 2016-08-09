@@ -7,14 +7,14 @@ Note
 * module files are defined under `pipexample/`
 * `pipexample/__init__.py` loads the functions in `pipexample/pipexample.py` so it's available in the module
 
-      import pipexample
-      pipexample.Foo
+        import pipexample
+        pipexample.Foo
 
   otherwise you would need to write
 
-      import pipexample
-      import pipexample.pipexample # to load the file
-      pipexample.pipexample.Foo
+        import pipexample
+        import pipexample.pipexample # to load the file
+        pipexample.pipexample.Foo
 * read setup.py to see how scripts and data files are included
 
 How to install
