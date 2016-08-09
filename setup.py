@@ -7,7 +7,11 @@ except ImportError:
 from setuptools import setup, find_packages
 
 setup(name="pipexample",
+
+      # semantic versioning is a simple way to define versions
+      # http://semver.org/
       version="0.0.1",
+
       description="",
       license="MIT",
       author="Eugene Wu",
